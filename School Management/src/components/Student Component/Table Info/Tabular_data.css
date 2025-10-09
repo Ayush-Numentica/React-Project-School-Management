@@ -1,0 +1,55 @@
+.table-container{
+    border: 1px solid #D1D1D1;
+    border-radius: 14px;
+    /* padding: 10px ; */
+}
+
+.student-data-table{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+table{
+    border-collapse: collapse;
+    border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  overflow: hidden;
+}
+
+
+tbody{
+    text-align: center;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+th{
+    padding: 15px 10px;
+    border-bottom: 1px solid #D1D1D1;
+    border-collapse: separate;
+    background-color: #EDF9FD;
+}
+td{
+    padding: 10px 10px;
+    border-bottom: 1px solid #D1D1D1;
+    border-collapse: separate;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-button{
+    background: transparent;
+    height: 24px;
+    width: 24px;
+    border: none;
+    outline: none;
+}
