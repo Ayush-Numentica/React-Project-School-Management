@@ -27,11 +27,11 @@ const Student_Form = () => {
                                         <label htmlFor="Gender">Gender</label>
                                         <div className="radio-button">
                                             <div className='gender-radio-button'>
-                                                <input type="radio" />
+                                                <input type="checkbox" className='checkbox' />
                                                 <label htmlFor="Male">Male</label>
                                             </div>
                                             <div className='gender-radio-button'>
-                                                <input type="radio" />
+                                                <input type="checkbox" className='checkbox' />
                                                 <label htmlFor="Female">Female</label>
                                             </div>
                                         </div>
@@ -81,6 +81,7 @@ const Student_Form = () => {
                     </div>
                 </div>
                 <div className="right-form-card">
+                    <div className='login-area'>
                     <Form_Card cardName="Login/Account Details">
                         <div className='login-input'>
                             <div className='form-input info-box-left'>
@@ -91,6 +92,8 @@ const Student_Form = () => {
                             </div>
                         </div>
                     </Form_Card>
+                    </div>
+                    <div className='contact-area'>
                     <Form_Card cardName="Contact Information">
                         <div className="info-boxes">
                             <div className="info-box-left">
@@ -125,30 +128,34 @@ const Student_Form = () => {
                         </div>
 
                     </Form_Card>
+                    </div>
+                    <div className='additional-area'>
                     <Form_Card cardName="Additional Information">
                         <div className="additional-info">
                             <div className="additional-info-radio">
                                 <div className="radio-style">
-                                    <input type="radio" />
+                                    <input type="checkbox" className='checkbox' />
                                     <label htmlFor="DayScholar">Day Scholar</label>
                                 </div>
                                 <div className="radio-style">
-                                    <input type="radio" />
+                                    <input type="checkbox" className='checkbox' />
                                     <label htmlFor="Hosteller">Hosteller</label>
                                 </div>
                             </div>
                             <div className="additional-info-radio">
                                 <div className="radio-style">
-                                    <input type="radio" />
+                                    <input type="checkbox" className='checkbox' />
+                                    
                                     <label htmlFor="Transport">Transport</label>
                                 </div>
                                 <div className="radio-style">
-                                    <input type="radio" />
+                                    <input type="checkbox" className='checkbox' />
                                     <label htmlFor="Non Transport">Non Transport</label>
                                 </div>
                             </div>
                         </div>
                     </Form_Card>
+                    </div>
                 </div>
             </div>
 

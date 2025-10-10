@@ -1,11 +1,14 @@
 .table-container{
     border: 1px solid #D1D1D1;
     border-radius: 14px;
+    width: 100%;
+    height: 100%;
     /* padding: 10px ; */
 }
 
 .student-data-table{
     width: 100%;
+    height: 100%;
     /* border: 1px solid black; */
 }
 
@@ -14,16 +17,25 @@ table{
     border-top-left-radius: 14px;
   border-top-right-radius: 14px;
   overflow: hidden;
+  width: 100%;
 }
 
 
 tbody{
     text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #A0A0A0;
 }
 
 tbody tr:last-child td {
   border-bottom: none;
 }
+
+
 
 th{
     padding: 15px 10px;
@@ -38,12 +50,17 @@ td{
 
 }
 
+
 .buttons{
     display: flex;
     flex-direction: row;
     gap: 5px;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    text-align: center;
+    /* border-bottom: 1px solid red; */
+    
 }
 
 .table-button{
@@ -52,4 +69,12 @@ td{
     width: 24px;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .table-container{
+        overflow-y: scroll;
+        height: 100%;
+    }
 }

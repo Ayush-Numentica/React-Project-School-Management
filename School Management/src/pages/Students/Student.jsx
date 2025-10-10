@@ -14,7 +14,7 @@ const Student = () => {
         navigate("/student/AddNew")
     }
     return (
-        <div className='students-info'>
+        <div className='all-students-information'>
             <div className="description-bar">
                 <span>Students</span>
                 <div className="new-addition" onClick={goToFormSection}>

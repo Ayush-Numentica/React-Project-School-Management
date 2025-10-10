@@ -10,12 +10,13 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    box-sizing: border-box;
     
 }
 
 .nav-container{
     /* border: 1px solid black; */
-    width: 15%;
+    width: 284px;
     /* height: 1110px; */
 }
 
@@ -23,8 +24,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 85%;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; */
     max-width: 100%;
 
 }
@@ -38,7 +39,9 @@
     width: 100%;
     /* padding: 10px; */
     height: 100%;
+    border: 1px solid black;
 }
+
 
 
 @media (max-width: 768px) {

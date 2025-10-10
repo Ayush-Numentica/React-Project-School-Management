@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Tabular_data.css"
 import studentsData from "../../../Datas/Students_Data.json"
-import deleteIcon from "../../../assets/Students/Delete Btn.svg"
-import editIcon from "../../../assets/Students/Edit Btn.svg"
+import deleteIcon from "../../../assets/Students/deleteIcon.svg"
+import editIcon from "../../../assets/Students/edit.svg"
 import categoryIcon from "../../../assets/Students/category.svg"
 const Tabular_data = () => {
 
@@ -24,10 +24,12 @@ const Tabular_data = () => {
               {columnName.map((colData) => (
                 <td key={colData}>{rowData[colData]}</td>
               ))}
-              <td className='buttons'>
-                <button className='table-button'><img src={editIcon} alt="" /></button>
-                <button className='table-button'><img src={deleteIcon} alt="" /></button>
-                <button className='table-button'><img src={categoryIcon} alt="" /></button>
+              <td>
+                <div className='buttons'>
+                  <button className='table-button'><img src={editIcon} alt="" /></button>
+                  <button className='table-button'><img src={deleteIcon} alt="" /></button>
+                  <button className='table-button'><img src={categoryIcon} alt="" /></button>
+                </div>
               </td>
             </tr>
           ))}
