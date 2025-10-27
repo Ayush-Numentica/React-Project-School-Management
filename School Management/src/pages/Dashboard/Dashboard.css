@@ -6,7 +6,7 @@
 }
 .dashboard-container-top{
     width: 100%;
-    min-height: 50%;
+    height: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
@@ -14,18 +14,59 @@
 }
 .dashboard-top-left{
     border: 1px solid black;
-    width: 60%;
+    width: 58%;
+    /* height: 100%; */
     gap: 10px;
     display: flex;
     flex-direction: column;
+    height: auto;
+}
+
+.totalstudent-noticeboard{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* height: 55%; */
+    height: 100%;
+    /* height: auto; */
 }
 .dashboard-top-right{
     border: 1px solid black;
-    width: 40%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+}
+.schoolinfo-calendar{
+    width: 100%;
+    border: 1px solid black;
+    /* height: 60%; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: auto;
+}
+
+.school-info{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.summary-card{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 50%; */
+    height: auto;
 }
 .dashboard-container-bottom{
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
+    height: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: row;

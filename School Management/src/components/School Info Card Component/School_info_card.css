@@ -1,0 +1,41 @@
+.school-info-card{
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.school-info-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-info-card-header span{
+    font-family: "Inter", sans-serif;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     color:#000000;
+}
+.card-total-count{
+    font-family: "Inter", sans-serif;
+     font-weight: 500;
+     font-size: 34px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     color:#000000;
+}
+.yellow{
+    background-color: #F8E38D;
+}
+
+.purple{
+    background-color: #E2D8FC;
+}

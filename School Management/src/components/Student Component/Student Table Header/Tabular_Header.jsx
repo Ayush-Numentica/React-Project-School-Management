@@ -3,7 +3,7 @@ import "./Tabular_Header.css"
 import settingIcon from "../../../assets/Students/setting-3.svg"
 import searchIcon from "../../../assets/Header/search-icon.svg"
 
-const Tabular_Header= ({table_name,search_input,button_1, children}) => {
+const Tabular_Header = ({ table_name, search_input, button_1, children }) => {
   return (
     <div className="tabular-info-header">
       <span>{table_name}</span>

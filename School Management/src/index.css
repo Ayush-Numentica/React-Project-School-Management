@@ -19,6 +19,7 @@ body {
   overflow-y: auto;
   min-width: 100vw;
   min-height: 100vh;
+  max-width: 1612px;
   padding: 1%;
   /* width: 100%; */
 }

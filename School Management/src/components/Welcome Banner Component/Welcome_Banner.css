@@ -1,4 +1,50 @@
 .welcome-banner{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* height: 250px; */
+    /* align-items: center; */
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    overflow: hidden;
+    /* margin: 20px; */
+    /* width: 401px ; */
+}
+
+article span{
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     color:#000000;
+}
+
+article p{
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 100%;
+     letter-spacing: 0%;
+     color: #8F8F8F;
+}
+
+@media (min-width: 1920px) {
+  article span {
+    font-size: 40px;
+  }
+  article p{
+    font-size: 20px;
+  }
 }
