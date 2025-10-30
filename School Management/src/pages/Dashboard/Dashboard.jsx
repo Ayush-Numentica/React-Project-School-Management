@@ -19,7 +19,7 @@ const Dashboard = () => {
         <div className="dashboard-top-left">
           <Welcome_Banner />
           <div className="totalstudent-noticeboard">
-            <Total_Students />
+            <Total_Students boy_percent="53" girl_percent="47"/>
             <Notice_Board />
           </div>
         </div>

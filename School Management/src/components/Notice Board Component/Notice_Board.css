@@ -45,11 +45,14 @@
 
 .notice-board-notices{
     overflow-y: auto;
-    height: 158px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     scroll-behavior: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -76,4 +79,7 @@
     letter-spacing: 0;
     color: #777777;
 
+}
+.notice{
+    height: 50%;
 }
